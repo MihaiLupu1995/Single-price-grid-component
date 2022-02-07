@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap");
+
+* {
+  color: white;
+}
+
+body {
+  background-color: hsl(204, 43%, 93%);
+  height: 100%;
+  width: 100%;
+  font-family: "Karla", sans-serif;
+}
+
+.container {
+  display: grid;
+  justify-content: center;
+  margin-top: 190px;
+}
+
+.div1 {
+  /* border: 2px solid red; */
+
+  width: 540px;
+  height: 160px;
+  background-color: white;
+  padding: 25px;
+  border-radius: 10px 10px 0 0;
+}
+
+.div1 p {
+  color: hsl(203, 12%, 66%);
+}
+
+.div1 h2 {
+  color: hsl(179, 100%, 26%);
+}
+
+.div1 h4 {
+  color: hsl(71, 73%, 54%);
+}
+
+.div2 {
+  /* border: 2px solid red; */
+  width: 245px;
+  height: 230px;
+  background-color: hsl(179, 100%, 26%);
+  padding: 25px;
+  border-radius: 0 0 0 10px;
+}
+
+span {
+  font-size: 15px;
+  color: hsl(203, 12%, 66%);
+}
+
+.div3 {
+  /* border: 2px solid red; */
+  width: 245px;
+  height: 230px;
+  background-color: hsl(179, 62%, 43%);
+  padding: 25px;
+  border-radius: 0 0 10px 0;
+}
+
+.div3 p {
+  color: hsl(204, 43%, 93%);
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 220px;
+  height: 50px;
+  background-color: hsl(71, 73%, 54%);
+  border-radius: 7px;
+  font-size: 17px;
+  margin-top: 20px;
+}
